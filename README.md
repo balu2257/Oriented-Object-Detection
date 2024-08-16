@@ -39,5 +39,12 @@ The validation results indicate that the model performs well on the validation s
 # Model Testing
 Model testing was conducted to evaluate the model's performance on completely unseen test data. The test dataset was used to assess the model's robustness and generalization capabilities.
 The testing results were slightly lower than validation results, indicating that while the model performs well on seen data, there is room for improvement when generalizing to completely new samples. Specific areas for improvement include handling more diverse orientations and object types.
+# Visualisations
+I visualized the results to demonstrate the model's performance. Below are examples of successful detections, with bounding boxes and orientation angles correctly predicted.
+![ood_ass example](https://github.com/user-attachments/assets/be357870-760c-4039-a83f-312a7578aacf)
+![ood_ass example7](https://github.com/user-attachments/assets/80bdd4dd-a263-40e6-93c6-5764007f3792)
+![ood_ass example4](https://github.com/user-attachments/assets/1d9d5433-ac75-40d3-89be-73ef3fafcafe)
+
+
 # Conclusion
 The YOLOv8-OBB model was successfully implemented and trained for oriented object detection. The model demonstrated strong performance in detecting multiple classes with varying orientations. Model validation and testing confirmed the model’s ability to generalize well, though some areas, such as handling extreme orientations and overlapping objects, could benefit from further improvement.
